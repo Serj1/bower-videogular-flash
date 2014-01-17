@@ -142,7 +142,7 @@ angular.module("info.vietnamcode.nampnq.videogular.plugins.flash", [])
                                 name: "videoPlayer_" + scope.playerId
                             };
                             //$window.swfobject.createCSS("#videoPlayer_" + scope.playerId, "position: absolute;");
-                            $window.swfobject.embedSWF("/bower_components/videogular-flash/video-js.swf", "videoPlayer_" + scope.playerId, "100%", "100%", "10.3", "", flashvars, params, attributes);
+                            $window.swfobject.embedSWF("/themes/default/assets/img/video-js.swf", "videoPlayer_" + scope.playerId, "100%", "100%", "10.3", "", flashvars, params, attributes);
                             API.videoElement.remove();
                             setTimeout(waitForSWF, 100);
 
